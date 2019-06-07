@@ -1,0 +1,25 @@
+{
+  "name": "webapiswithexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-nights-weekends-codename-camel/webAPIswithExpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-nights-weekends-codename-camel/webAPIswithExpress/issues"
+  },
+  "homepage": "https://github.com/thinkful-nights-weekends-codename-camel/webAPIswithExpress#readme"
+}
