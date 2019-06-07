@@ -7,7 +7,7 @@ app.get('/sum', (req, res) => {
   const two = parseFloat(req.query.numberTwo, 10);
   const sum = one + two; 
 
-  (isNaN(one) || isNaN(two)) ? res.status(400).send('Please provide valid numbers') : res.send(`The sum of ${one} and ${two} is ${sum}.`)
+  (!one || isNaN(one) || !two || isNaN(two)) ? res.status(400).send('Please provide valid numbers') : res.send(`The sum of ${one} and ${two} is ${sum}.`)
 });
 
 app.get('/cipher', (req, res) => {
